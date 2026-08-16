@@ -412,17 +412,9 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-- name: Hong Kong_None_trojan_1128
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: France_None_vmess_1129
+  name: France_None_vmess_1128
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -436,18 +428,8 @@ proxies:
       Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_1130
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1131
+  name: United Kingdom_Gosport_ss_1129
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -457,17 +439,7 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1132
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8115
-  server: cn03.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1133
+  name: United Kingdom_Gosport_ss_1130
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -477,7 +449,7 @@ proxies:
   server: cn01.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1134
+  name: United Kingdom_Gosport_ss_1131
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -487,37 +459,7 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1135
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1136
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1137
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8105
-  server: cn02.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1138
+  name: United Kingdom_Gosport_ss_1132
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -527,17 +469,7 @@ proxies:
   server: cn06.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1139
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8231
-  server: cn06.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1140
+  name: United Kingdom_Gosport_ss_1133
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -547,7 +479,7 @@ proxies:
   server: cn06.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1141
+  name: United Kingdom_Gosport_ss_1134
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -557,7 +489,7 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1142
+  name: United Kingdom_Gosport_ss_1135
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -567,7 +499,7 @@ proxies:
   server: cn18.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1143
+  name: United Kingdom_Gosport_ss_1136
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -576,22 +508,7 @@ proxies:
   port: 8101
   server: cn01.somethingstranges.com
   type: ss
-- client-fingerprint: chrome
-  name: None_None_trojan_1144
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
-- name: Hong Kong_None_trojan_1145
+- name: Hong Kong_None_trojan_1137
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -599,7 +516,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1146
+- name: Hong Kong_None_trojan_1138
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -607,7 +524,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1147
+- name: Japan_Tokyo_trojan_1139
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -666,26 +583,18 @@ proxy-groups:
   - Hong Kong_Central_vmess_1125
   - France_None_vmess_1126
   - France_None_vmess_1127
-  - Hong Kong_None_trojan_1128
-  - France_None_vmess_1129
-  - China_None_vmess_1130
+  - France_None_vmess_1128
+  - United Kingdom_Gosport_ss_1129
+  - United Kingdom_Gosport_ss_1130
   - United Kingdom_Gosport_ss_1131
   - United Kingdom_Gosport_ss_1132
   - United Kingdom_Gosport_ss_1133
   - United Kingdom_Gosport_ss_1134
   - United Kingdom_Gosport_ss_1135
   - United Kingdom_Gosport_ss_1136
-  - United Kingdom_Gosport_ss_1137
-  - United Kingdom_Gosport_ss_1138
-  - United Kingdom_Gosport_ss_1139
-  - United Kingdom_Gosport_ss_1140
-  - United Kingdom_Gosport_ss_1141
-  - United Kingdom_Gosport_ss_1142
-  - United Kingdom_Gosport_ss_1143
-  - None_None_trojan_1144
-  - Hong Kong_None_trojan_1145
-  - Hong Kong_None_trojan_1146
-  - Japan_Tokyo_trojan_1147
+  - Hong Kong_None_trojan_1137
+  - Hong Kong_None_trojan_1138
+  - Japan_Tokyo_trojan_1139
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -737,26 +646,18 @@ proxy-groups:
   - Hong Kong_Central_vmess_1125
   - France_None_vmess_1126
   - France_None_vmess_1127
-  - Hong Kong_None_trojan_1128
-  - France_None_vmess_1129
-  - China_None_vmess_1130
+  - France_None_vmess_1128
+  - United Kingdom_Gosport_ss_1129
+  - United Kingdom_Gosport_ss_1130
   - United Kingdom_Gosport_ss_1131
   - United Kingdom_Gosport_ss_1132
   - United Kingdom_Gosport_ss_1133
   - United Kingdom_Gosport_ss_1134
   - United Kingdom_Gosport_ss_1135
   - United Kingdom_Gosport_ss_1136
-  - United Kingdom_Gosport_ss_1137
-  - United Kingdom_Gosport_ss_1138
-  - United Kingdom_Gosport_ss_1139
-  - United Kingdom_Gosport_ss_1140
-  - United Kingdom_Gosport_ss_1141
-  - United Kingdom_Gosport_ss_1142
-  - United Kingdom_Gosport_ss_1143
-  - None_None_trojan_1144
-  - Hong Kong_None_trojan_1145
-  - Hong Kong_None_trojan_1146
-  - Japan_Tokyo_trojan_1147
+  - Hong Kong_None_trojan_1137
+  - Hong Kong_None_trojan_1138
+  - Japan_Tokyo_trojan_1139
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
